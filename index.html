@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+ 
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Auto servis Mirkovic - Zeleznik, Beograd</title>
+</head>
+
+<body>
+    <nav id="fullnav" class="navbar navbar-dark navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="#">
+           <!--<img src="img/logo.png" alt="Auto servis Zeleznik" style="width:100px;">-->
+           <span style="color:rgb(255, 217, 0);text-shadow:1px 1px 3px black;">ASM</span>
+          </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+            <span class=""><i id="navbtn" class="fas fa-stream" style="font-size:24px;color:#f0c929;outline: none;"></i></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="myNavbar">
+            <ul id="nav" class="nav navbar-nav navbar-right">
+                <span data-aos="fade-up" data-aos-delay="500"><li class="nav-item"><a class="nav-dugme underline" href="#">Pocetna</a></li></span>
+                <span data-aos="fade-up" data-aos-delay="600"><li class="nav-item"><a class="nav-dugme underline" href="#o-nama">O nama</a></li></span>
+                <span data-aos="fade-up" data-aos-delay="700"><li class="nav-item underline dropdown"><a class="nav-dugme" data-toggle="dropdown">Servisi</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Dijagnostika</a>
+                        <a class="dropdown-item" href="#">Elektronika</a>
+                        <a class="dropdown-item" href="#">Mehanika</a>
+                        <a class="dropdown-item" href="#">Vulkanizer</a>
+                      </div>
+                    </li>
+                </span>
+
+                <span data-aos="fade-up" data-aos-delay="800"><li class="nav-item"><a class="nav-dugme underline" href="#delovi">Delovi</a></li></span>
+                <span data-aos="fade-up" data-aos-delay="900"><li class="nav-item"><a class="nav-dugme underline" href="#galerija">Galerija</a></li></span>
+                <span data-aos="fade-up" data-aos-delay="1000"><li class="nav-item"><a class="nav-dugme underline" href="#kontakt">Kontakt</a></li></span>
+            </ul>
+        </div>
+    </nav>
+    <div id="rmv" class="blackbox"></div>
+    <div id="bg1" class="bg1 h100"></div>
+    <div class="row b1 h100">
+             <div class="col-12 text-center">
+                        <div class="welcome-1">
+                            <h1 data-aos-delay="2100" data-aos="fade-up" class="jumbo1">
+                                Auto servis Mirković
+                            </h1>
+                            <h2 data-aos-delay="2400" data-aos="fade-up" class="jumbo2">
+                            Za sve servisne intervencije na vozilima, obratite nam se sa punim poverenjem, 
+                            a sve poslove oko dijagnostike, nabavke originalnih rezervnih delova kao i dobrih 
+                            polovnih delova i strucne ugradnje na vozilo prepustite nama. DOBRO DOSLI!
+                            </h2>
+                        </div>
+                        <div data-aos-delay="2400" data-aos="fade-up" class="welcome-2">
+                            <div class="row text-center">
+                                <div class="col-4 block1">
+                                    <div data-aos-delay="2500" data-aos="fade-up">
+                                        <i class='fas fa-bolt' style='font-size:48px;margin-top:10px;color:#ac0d0d;'></i>
+                                        <p class="t1">Mehanika</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 block1">
+                                    <div data-aos-delay="2750" data-aos="fade-up">
+                                        <i class='fas fa-car' style='font-size:48px;margin-top:10px;color:#ac0d0d;'></i>
+                                        <p class="t1">Dijagnostika</p>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div data-aos-delay="3000" data-aos="fade-up">
+                                        <i class='fas fa-wrench' style='font-size:48px;margin-top:10px;color:#ac0d0d;'></i>
+                                        <p class="t1">Servisiranje</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <a href="#o-nama">
+                        <div class="anim">
+                            <div class="scroller">
+                                <i class='fas fa-chevron-down' style='font-size:48px;color:#ac0d0d;'></i>
+                                <i class='fas fa-chevron-down' style='font-size:48px;margin-top: 30px;color:#ac0d0d;'></i>
+                                <i class='fas fa-chevron-down' style='font-size:48px;margin-top: 60px;color:#ac0d0d;'></i>
+                            </div>
+                        </div>
+                    </a>
+             </div>
+     </div>
+    <div id="o-nama" class="row b2">
+        <div class="col-xl-7 xx">
+            <div>
+                <h1 class="jumbo1x mt80">O nama</h1>
+                <hr style="margin:18px 0;width:30%;opacity:0.8;border-top: 1px solid #f0c929">
+                <p class="desc" data-aos="fade-left">
+                    U ovom odseku ce stajati teskt koji govori o istoriji Vaseg poslovanja. Dalji tekst...Equipped with a 510-hp high-performance BMW M TwinPower Turbo inline 6-cylinder petrol engine and numerous drivetrain and chassis technologies derived from motorsport, this sports coupé offers typical M driving dynamics at a supreme level. The optional all-wheel drive M xDrive* with Active M Differential guarantees maximum driving dynamics at all times both in everyday use and on the race track. A powerful design language at the front, side and rear alongside optional M specific Carbon features on the exterior and in the interior underline the athletic character of the vehicle.
+                </p>
+            </div>
+        </div>
+        <div class="col-xl-5" style="align-self: center;">
+            <img class="m4-1" src="img/asm1.png" alt="">
+        </div>
+    </div>
+    <div id="servisi" class="b3 h100">
+        <h1 class="jumbo1x text-center">Auto servis</h1>
+        <div class="row sect text-center">
+            <div class="col-lg-4">
+                <div class="sect-child" data-aos="flip-left">
+                <img class="img-sect" alt="" src="img/mehanika.webp">
+                <h2 class="hdr-sect">Mehanika</h2>
+                <p class="txt-sect">
+                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                      when an unknown printer took a galley of type and scrambled it to make a
+                       type specimen book.
+                </p>
+            </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="sect-child" data-aos="flip-left" data-aos-delay="150">
+                <img class="img-sect" alt="" src="img/mech4.jpg">
+                <h2 class="hdr-sect">Centriranje trapa</h2>
+                <p class="txt-sect">
+                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                      when an unknown printer took a galley of type and scrambled it to make a
+                       type specimen book.
+                </p>
+            </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="sect-child" data-aos="flip-left" data-aos-delay="300">
+                <img class="img-sect" alt="" src="img/mech3.jpg">
+                <h2 class="hdr-sect">Dijagnostika</h2>
+                <p class="txt-sect">
+                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                      when an unknown printer took a galley of type and scrambled it to make a
+                       type specimen book.
+                </p>
+            </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="sect-child" data-aos="flip-right">
+                <img class="img-sect" alt="" src="img/mech2.jpg">
+                <h2 class="hdr-sect">Vulkanizer</h2>
+                <p class="txt-sect">
+                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                      when an unknown printer took a galley of type and scrambled it to make a
+                       type specimen book.
+                </p>
+            </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="sect-child" data-aos="flip-right" data-aos-delay="150">
+                <img class="img-sect" alt="" src="img/dizne.jpg">
+                <h2 class="hdr-sect">Servis dizni</h2>
+                <p class="txt-sect">
+                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                      when an unknown printer took a galley of type and scrambled it to make a
+                       type specimen book.
+                </p>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="" class="row b4">
+        <div class="col-12 text-center xx">   
+            <h1 class="jumbo1x">UTISCI MUSTERIJA</h1>
+            <hr style="margin:0 auto;width:30%;opacity:0.8;border-top: 2px solid #f0c929">
+         </div>
+         <div class="col-12 text-center xx">   
+            <div id="demo1" class="carousel cs2 slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#demo1" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo1" data-slide-to="1"></li>
+                  <li data-target="#demo1" data-slide-to="2"></li>
+                  <li data-target="#demo1" data-slide-to="3"></li>
+                  <li data-target="#demo1" data-slide-to="4"></li>
+                  <li data-target="#demo1" data-slide-to="5"></li>
+                </ul>
+              
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <p class="review">Ovde bih napisao svasta lepo o momcima koji rade u servisu!</p>
+                    <h3 class="reviewer">Ime i prezime musterije..</h3>
+                    <div class="rating">
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <p class="review">Redovno odrzavam auto ovde...sve pohvale</p>
+                    <h3 class="reviewer">Ime i prezime musterije..</h3>
+                    <div class="rating">
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <p class="review">Reci su suvisne!!!</p>
+                    <h3 class="reviewer">Ime i prezime musterije..</h3>
+                    <div class="rating">
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <p class="review">Jedni od najboljih u gradu</p>
+                    <h3 class="reviewer">Ime i prezime musterije..</h3>
+                    <div class="rating">
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <p class="review">Brz servis, pristupacne cene, dobri majstori</p>
+                    <h3 class="reviewer">Ime i prezime musterije..</h3>
+                    <div class="rating">
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <p class="review">Dolazim ovde vec godinama, sve najbolje imam da kazem</p>
+                    <h3 class="reviewer">Ime i prezime musterije..</h3>
+                    <div class="rating">
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                        <i class='fas fa-star'></i>
+                    </div>
+                  </div>
+                </div>
+              
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo1" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo1" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              
+              </div>
+         </div>
+    </div>
+    <div id="delovi" class="b5-5 row" style="background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(240,201,41,1) 100%);">
+        <div class="col-12">
+            <div class="row delovi sect-child">
+                <div class="col-12 text-center">
+                    <h1 class="delovi-h1">DELOVI</h1>
+                    <hr style="margin:0 auto;width:30%;opacity:0.8;border-top: 1px solid #f0c929">
+                    <p class="delovi-p desc" data-aos="fade-up">Biramo delove isključivo premium proizvodjača specijalno za Vaše vozilo. Hella, Valeo, Continental, Sachs itd... 
+                        Dalji tekst dodati...Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                </div>
+                <div class="col-md-4 col-6">
+                    <img src="img/continental.png" alt="" class="img-csl">
+                </div>
+                <div class="col-md-4 col-6">
+                    <img src="img/castrol.jpg" alt="" class="img-csl">
+                </div>
+                <div class="col-md-4 col-6">
+                    <img src="img/monroe.png" alt="" class="img-csl">
+                </div>
+                <div class="col-md-4 col-6">
+                    <img src="img/sachs.jpg" alt="" class="img-csl">
+                </div>
+                <div class="col-md-4 col-6">
+                    <img src="img/skf.jpg" alt="" class="img-csl">
+                </div>
+                <div class="col-md-4 col-6">
+                    <img src="img/textar.jpg" alt="" class="img-csl">
+                </div>
+                <div class="col-md-4 col-6">
+                    <img src="img/valeo.png" alt="" class="img-csl">
+                </div>
+                <div class="col-md-4 col-6">
+                    <img src="img/hella.png" alt="" class="img-csl">
+                 </div>
+                <div class="col-md-4 col-6">
+                    <img src="img/dayco.jpg" alt="" class="img-csl">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="galerija" class="b5 row">
+        <div class="col-12 text-center xx">   
+            <h1 class="jumbo1x">GALERIJA</h1>
+         </div>
+        <div class="col-12 csl">
+            <div class="row-gallery">
+                <div class="column">
+                  <img src="img/g11.jpg">
+                  <img src="img/g22.jpg">
+                  <img src="img/g3.jpeg">
+                  <img src="img/g4.jpeg">
+                </div>
+                <div class="column">
+                  <img src="img/g55.jpg">
+                  <img src="img/g66.jpg">
+                  <img src="img/g7.jpeg">
+                  <img src="img/g88.jpg">
+                </div>
+                <div class="column">
+                  <img src="img/g10.jpeg">
+                  <img src="img/g11.jpeg">
+                  <img src="img/g122.jpg">
+                  <img src="img/g133.jpg">
+                  <img src="img/g99.jpg">
+                </div>
+              </div>
+        </div>
+    </div>
+    <div id="kontakt" class="b6 row">
+        <div class="col-lg-6">
+           <h1 class="jumbo1x mt80 text-center">Kontakt</h1>
+            <div style="margin-top:30px;">
+                <p class="addr">Radno vreme:<br><br>
+                Radnim danima od<wbr><b> 8:00 - 17:00</b><br>
+                Vikendom od <wbr><b>8:00 - 14:00</b><br><br>
+            Nedeljom ne radimo.<br>
+        </p></div>
+
+            <div><i class='fas fa-home' style='font-size:26px;color:rgb(255, 217, 0);'></i><p class="addr adr1">Avalska 142đ, Železnik</p></div>
+            <div><i class='fas fa-phone' style='font-size:26px;color:rgb(255, 217, 0);'></i> <p class="addr adr1">011 / 3575-228</p></div>
+            <div><i class='fas fa-phone' style='font-size:26px;color:rgb(255, 217, 0);'></i> <p class="addr adr1">064 / 11-45-449</p></div>
+        </div>
+        <div class="col-lg-6">
+            <iframe class="gmaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2834.9064336791293!2d20.39722411575221!3d44.721521090710084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a721282014743%3A0x5605991ca8bbf517!2sAuto%20Servis%20Mirkovic!5e0!3m2!1sen!2srs!4v1619122831144!5m2!1sen!2srs" ></iframe>
+        </div>
+    </div>
+    <hr style="margin:0 auto;width:100%;opacity:0.8;border-top: 1px solid #f0c929">
+       <div class="b7">
+           <div class="row banner">
+        <div class="col-md-4 col-sm-6">
+            <h3 class="navi">NAVIGACIJA</h3>
+            <p class="navi-p">Početna</p>
+            <p class="navi-p">O nama</p>
+            <p class="navi-p">Servisi</p>
+            <p class="navi-p">Delovi</p>
+            <p class="navi-p">Kontakt</p>
+        </div>
+        <div class="col-md-4 dnone">
+            <img class="nav-logo" alt="" src="img/asm1.png">
+        </div>
+        <div class="col-md-4 m20 col-sm-6">
+            <h3 class="navi">DRUŠTVENE MREŽE</h3>
+            <p class="navi-p">Facebook</p>
+            <p class="navi-p">Instagram</p>
+            <p class="navi-p">Twitter</p>
+            <p class="navi-p">Google</p>
+        </div>
+        </div>
+       </div>
+    
+    <script type="text/JavaScript" src="script.js"></script>
+    <script>
+        AOS.init({
+            duration:1000,
+            once: true,
+        });
+      </script>
+</body>
+</html>
