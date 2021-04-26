@@ -110,7 +110,7 @@ body{
     text-transform: uppercase;
     font-weight: 600;
     color:#f0c929;
-    font-size: calc(35px + 1.8vw);
+    font-size: calc(32px + 1.8vw);
     text-shadow: 1px 1px 3px black;
 }
 .mt80{
@@ -455,15 +455,45 @@ body{
       width: 1400px;
       max-width: 95%;
   }
-  /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
     .column {
       flex: 50%;
       max-width: 50%;
     }
   }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .desc{
+        font-size: 13px;
+    }
+    .txt-sect{
+        font-size: 14px;
+        margin: 10px 0px;
+    }
+    .hdr-sect{
+        font-size: 30px;
+    }
+    .review {
+        font-size: 18px;
+        margin: 10px 0px;
+    }
+    .reviewer {
+        font-size: 16px;
+    }
+    .fa-star {
+        color: #ac0d0d;
+        font-size: 17px;
+        margin-bottom: 80px;
+    }
+    .desc {
+        font-size: 14px;
+    }
+    .img-csl {
+        height: 75px;
+    }
+    .delovi div {
+        margin: 8px auto;
+    }
+  }
   @media screen and (max-width: 600px) {
     .column {
       flex: 100%;
